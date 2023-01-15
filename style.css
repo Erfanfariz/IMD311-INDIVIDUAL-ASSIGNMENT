@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.main{
+    width: 100;
+    background:linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(images/background\ 1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.navbar{
+    height: 20%;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 100px;
+    cursor: pointer;
+
+}
+.menu-icon{
+    width: 40px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: blue;
+    font-size: 20px;
+}
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+.col{
+    flex-basis: 50%;
+}
+h1{
+    color: black;
+    font-size: 100px;
+
+}
+p{
+    color: black;
+    font-size: 20px;
+    line-height: 15px;
+}
+button{
+    width: 180px;
+    color: blue;
+    font-size: 20px;
+    padding: 15px 0;
+    background:black;
+    border: 0;
+    border: 30px;
+    outline: none;
+    margin-top: 30px;
+}
+.card{
+    width: 180px;;
+    height: 180px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition:transform 0.5s;
+}
+.Biodata{
+    background-image: url(images/biodata.jpg);
+}
+.hobby{
+    background-image: url(images/hobby.jpg);
+}
+.CONTACT{
+    background-image: url(images/gallery.jpg);
+}
+.MOVIE{
+    background-image: url(images/H9.jpg);
+}
+
+.card:hover{
+    transform: translateY(-10px);
+}
+
+.myself {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .title {
+    color: grey;
+    font-size: 18px;
+  }
+  
+  button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+  }
+  
+  button:hover, a:hover {
+    opacity: 0.7;
+  }
+  .about{
+    width: 100%;
+    padding: 78px 0px;
+    background-color: #fdab68;
+  }
+  .about .my{
+    height: auto;
+    width: 400px;
+  }
+  .info{
+    width: 550px;
+  }
+  .me{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .info h1{
+    color: #000;
+    font-size: 80px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+  }
+  .info h5{
+    color: #000;
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+  }
+  span{
+    color: aliceblue;
+  }
+  .info p{
+    color: #000;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+    text-align: justify;
+  }
+  .contact{
+    display: flex;
+  }
+  .contact a{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 22px 10px;
+    text-decoration: none;
+    font-size: 30px;
+    
+  }
+  .social{
+    list-style: none;
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+
